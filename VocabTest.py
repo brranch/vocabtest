@@ -34,6 +34,6 @@ Button(root, text='Basic Vocab', bg='#FFFFFF', font=('arial', 20, 'normal'), com
 Button(root, text='Adv Vocab', bg='#FFFFFF', font=('arial', 20, 'normal'), command=btnClickFunctionAdv).place(x=350, y=62)
 
 # label
-Label(root, text=word, bg='#F0F8FF', font=('arial', 40, 'normal')).place(x=190, y=170)
+Label(root, textvariable=word, bg='#F0F8FF', font=('arial', 40, 'normal')).place(x=190, y=170)
 
 root.mainloop()
